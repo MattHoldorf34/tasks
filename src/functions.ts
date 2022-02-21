@@ -1,5 +1,3 @@
-import { totalmem } from "os";
-
 /**
  * Consumes a single temperature in Fahrenheit (a number) and converts to Celsius
  * using this formula:
