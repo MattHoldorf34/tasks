@@ -166,6 +166,8 @@ What shape can you make with one line?
             points: 2,
             published: false
         });
+        renameQuestion(ADDITION_QUESTION, "Addition");
+        renameQuestion(SHAPE_QUESTION, "Shapes");
     });
 
     ///////////////////////////////////
@@ -251,6 +253,8 @@ What shape can you make with one line?
             points: 1,
             published: true
         });
+        SHAPE_QUESTION.options.splice(SHAPE_QUESTION.options.length - 1, 1);
+        COLOR_QUESTION.options.splice(COLOR_QUESTION.options.length - 1, 1);
     });
 
     ///////////////////////////////////
