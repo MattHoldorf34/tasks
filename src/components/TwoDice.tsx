@@ -35,45 +35,4 @@ export function TwoDice(): JSX.Element {
             </div>
         </div>
     );
-    /*
-    export function TwoDice(): JSX.Element {
-
-    const [d1, setD1] = useState<number>(1);
-
-    const [d2, setD2] = useState<number>(2);
-
-    function RollLeft(): void {
-
-        setD1(d6);
-
-    }
-
-    function RollRight(): void {
-
-        setD2(d6);
-
-    }
-
-    return (
-
-        <div>
-
-            <Button onClick={RollLeft}>Roll Left</Button>
-
-            <span data-testid="left-die">{d1}</span>
-
-            <Button onClick={RollRight}>Roll Right</Button>
-
-            <span data-testid="right-die">{d2}</span>
-
-            {d1 === d2 && d1 === 1 && <div>Lose</div>}
-
-            {d1 === d2 && d1 !== 1 && <div>Win</div>}
-
-        </div>
-
-    );
-
-}
-*/
 }
