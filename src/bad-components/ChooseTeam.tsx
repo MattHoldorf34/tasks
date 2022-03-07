@@ -9,34 +9,45 @@ const PEOPLE = [
     "Barbara Liskov",
     "Margaret Hamilton"
 ];
-
 export function ChooseTeam(): JSX.Element {
+    /*
+    const [name, changeName] = useState<string>(PEOPLE[0]);
+    const [team, setTeam] = useState<string[]>([]);
+
+    function chooseMember(): void {
+        setTeam(team.concat(name));
+    }
+
+    function clearTeam(): void {
+        setTeam([]);
+    }
+    */
     const [allOptions, setAllOptions] = useState<string[]>(PEOPLE);
     const [team, setTeam] = useState<string[]>([]);
 
-    function chooseMember() {
-        /*
-        if (!team.includes(newMember)) {
-            team.push(newMember);
-        }
-        */
+    function chooseMember(newMember: string) {
+        if (!team.includes(newMember)) setTeam([...team, newMember]);
+        setAllOptions(
+            allOptions.filter((person: string): boolean => person != newMember)
+        );
     }
 
     function clearTeam() {
-        /*
-        team = [];
-        */
+        setTeam([]);
+        setAllOptions(PEOPLE);
     }
-
     return (
         <div>
             <h3>Choose Team</h3>
             <Row>
                 <Col>
-                    {allOptions.map((option: string) => (
+                    {PEOPLE.map((option: string) => (
                         <div key={option} style={{ marginBottom: "4px" }}>
                             Add{" "}
-                            <Button onClick={chooseMember} size="sm">
+                            <Button
+                                onClick={() => chooseMember(option)}
+                                size="sm"
+                            >
                                 {option}
                             </Button>
                         </div>
