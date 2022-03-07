@@ -18,12 +18,12 @@ describe("Testing the basic functions", () => {
     });
 
     test("Testing the add3 function", () => {
-        expect(add3(1, 2, 3)).toBe(6);
-        expect(add3(9, 7, 4)).toBe(20);
-        expect(add3(6, -3, 9)).toBe(15);
-        expect(add3(10, 1, -9)).toBe(11);
-        expect(add3(-9, -100, -4)).toBe(0);
-        expect(add3(-1, -1, 1)).toBe(1);
+        expect(add3({ first: 1, second: 2, third: 3 })).toBe(6);
+        expect(add3({ first: 9, second: 7, third: 4 })).toBe(20);
+        expect(add3({ first: 6, second: -3, third: 9 })).toBe(15);
+        expect(add3({ first: 10, second: 1, third: -9 })).toBe(11);
+        expect(add3({ first: -9, second: -100, third: -4 })).toBe(0);
+        expect(add3({ first: -1, second: -1, third: 1 })).toBe(1);
     });
 
     test("Testing the shout function", () => {
