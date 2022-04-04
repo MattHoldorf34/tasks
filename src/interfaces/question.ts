@@ -10,7 +10,7 @@ export interface Question {
     /** The instructions and content of the Question */
     body: string;
     /** The kind of Question; influences how the user answers and what options are displayed */
-    type: QuestionType;
+    type: string;
     /** The possible answers for a Question (for Multiple Choice questions) */
     options: string[];
     /** The actually correct answer expected */
@@ -19,4 +19,6 @@ export interface Question {
     points: number;
     /** Whether or not this question is ready to display to students */
     published: boolean;
+    /** The answer submitted by the user. */
+    guess: string;
 }
