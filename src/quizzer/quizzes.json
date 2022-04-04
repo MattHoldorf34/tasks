@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Goodfellas Quiz",
+        "description": "Quiz about my favorite movie, Goodfellas",
+        "points": 34,
+        "questions": [
+            {
+                "name": "Question 1",
+                "body": "What was Jimmy Conway's nickname?",
+                "type": "multiple_choice",
+                "options": ["The Gent", "The Killer", "Two Times"],
+                "expected": "The Gent",
+                "points": 4,
+                "id": 1,
+                "published": true
+            },
+            {
+                "name": "Question 2",
+                "body": "Which girlfriend did Henry buy an apartment for?",
+                "type": "short_answer",
+                "options": [],
+                "expected": "Janice",
+                "points": 10,
+                "id": 2,
+                "published": true
+            },
+            {
+                "name": "Question 3",
+                "body": "At what nightclub do Henry and his friends hang out?",
+                "type": "multiple_choice",
+                "options": [
+                    "The 21 Club",
+                    "Studio 54",
+                    "Cousin's",
+                    "Copacabana"
+                ],
+                "expected": "Copacabana",
+                "points": 10,
+                "id": 3,
+                "published": true
+            },
+            {
+                "name": "Question 4",
+                "body": "How does Henry make money while in prison?",
+                "type": "multiple_choice",
+                "options": [
+                    "Running card games",
+                    "Bookmaking",
+                    "Selling drugs",
+                    "Selling food"
+                ],
+                "expected": "Selling drugs",
+                "points": 10,
+                "id": 4,
+                "published": true
+            }
+        ]
+    },
+    {
+        "title": "Holdy Quiz",
+        "description": "Quiz about myself",
+        "points": 100,
+        "questions": [
+            {
+                "name": "Question 1",
+                "body": "What is my favorite number",
+                "type": "short_answer",
+                "options": [],
+                "expected": "34",
+                "points": 25,
+                "id": 1,
+                "published": true
+            },
+            {
+                "name": "Question 2",
+                "body": "Complete the sentence: Whaddup _____",
+                "type": "short_answer",
+                "options": [],
+                "expected": "Boosh",
+                "points": 25,
+                "id": 2,
+                "published": true
+            }
+        ]
+    }
+]
