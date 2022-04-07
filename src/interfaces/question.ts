@@ -20,5 +20,5 @@ export interface Question {
     /** Whether or not this question is ready to display to students */
     published: boolean;
     /** The answer submitted by the user. */
-    guess: string;
+    //guess: string;
 }

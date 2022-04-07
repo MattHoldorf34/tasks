@@ -8,8 +8,7 @@
             "options": [],
             "expected": "",
             "points": 1,
-            "published": false,
-            "guess": ""
+            "published": false
         },
         {
             "id": 47,
@@ -19,8 +18,7 @@
             "options": [],
             "expected": "",
             "points": 1,
-            "published": false,
-            "guess": ""
+            "published": false
         },
         {
             "id": 2,
@@ -30,8 +28,7 @@
             "options": [],
             "expected": "",
             "points": 1,
-            "published": false,
-            "guess": ""
+            "published": false
         }
     ],
     "SIMPLE_QUESTIONS": [
@@ -43,8 +40,7 @@
             "options": [],
             "expected": "4",
             "points": 1,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 2,
@@ -54,8 +50,7 @@
             "options": [],
             "expected": "Z",
             "points": 1,
-            "published": false,
-            "guess": ""
+            "published": false
         },
         {
             "id": 5,
@@ -65,8 +60,7 @@
             "options": ["red", "apple", "firetruck"],
             "expected": "red",
             "points": 1,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 9,
@@ -76,8 +70,7 @@
             "options": ["square", "triangle", "circle"],
             "expected": "circle",
             "points": 2,
-            "published": false,
-            "guess": ""
+            "published": false
         }
     ],
     "TRIVIA_QUESTIONS": [
@@ -89,8 +82,7 @@
             "options": ["Bluey", "YoUDee", "Charles the Wonder Dog"],
             "expected": "YoUDee",
             "points": 7,
-            "published": false,
-            "guess": ""
+            "published": false
         },
         {
             "id": 2,
@@ -104,8 +96,7 @@
             ],
             "expected": "Knowledge is the light of the mind",
             "points": 3,
-            "published": false,
-            "guess": ""
+            "published": false
         },
         {
             "id": 3,
@@ -119,8 +110,7 @@
             ],
             "expected": "Two",
             "points": 10,
-            "published": false,
-            "guess": ""
+            "published": false
         }
     ],
     "EMPTY_QUESTIONS": [
@@ -132,8 +122,7 @@
             "options": ["correct", "it is", "not"],
             "expected": "correct",
             "points": 5,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 2,
@@ -143,8 +132,7 @@
             "options": ["this", "one", "is", "not", "empty", "either"],
             "expected": "one",
             "points": 5,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 3,
@@ -154,8 +142,7 @@
             "options": [],
             "expected": "",
             "points": 5,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 4,
@@ -165,8 +152,7 @@
             "options": [],
             "expected": "Even this one is not empty",
             "points": 5,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 5,
@@ -176,8 +162,7 @@
             "options": [],
             "expected": "",
             "points": 5,
-            "published": false,
-            "guess": ""
+            "published": false
         }
     ],
     "SIMPLE_QUESTIONS_2": [
@@ -189,8 +174,7 @@
             "options": [],
             "expected": "90",
             "points": 53,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 1937,
@@ -200,8 +184,7 @@
             "options": [],
             "expected": "10",
             "points": 47,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 479,
@@ -211,8 +194,7 @@
             "options": [],
             "expected": "Yes",
             "points": 40,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 777,
@@ -222,8 +204,7 @@
             "options": [],
             "expected": "Yes",
             "points": 60,
-            "published": true,
-            "guess": ""
+            "published": true
         },
         {
             "id": 1937,
@@ -233,8 +214,7 @@
             "options": [],
             "expected": "Yes",
             "points": 100,
-            "published": true,
-            "guess": ""
+            "published": true
         }
     ]
 }

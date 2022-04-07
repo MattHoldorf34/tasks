@@ -17,7 +17,7 @@ export const DisplayQuestion = ({
 }) => {
     const handleSubmitClick = () => {
         handleSubmit(index);
-        if (question.guess === question.expected) {
+        if (question.body === question.expected) {
             addPoints(question.points);
         }
     };
@@ -39,7 +39,7 @@ export const DisplayQuestion = ({
                         <Form.Group controlId="formShortAnswerBox">
                             <Form.Control
                                 data-testid="select-option"
-                                value={question.guess}
+                                //value={question.guess}
                             ></Form.Control>
                         </Form.Group>
                     )}
@@ -53,7 +53,7 @@ export const DisplayQuestion = ({
                                         key={option + " | " + i}
                                         label={option}
                                         value={option}
-                                        checked={question.guess === option}
+                                        //checked={question.guess === option}
                                     />
                                 )
                             )}
@@ -61,7 +61,7 @@ export const DisplayQuestion = ({
                     )}
                     <div className="checkInput">
                         <h2 className={submitted ? "" : "hidden"}>
-                            {question.guess === question.expected ? "✔️" : "❌"}
+                            {question.body === question.expected ? "✔️" : "❌"}
                         </h2>
                         <Button
                             disabled={submitted}

@@ -10,12 +10,11 @@ const QUIZZES = myquizzes.map(
         ...quiz,
         questions: quiz.questions.map(
             (q): Question => ({
-                ...q,
-                guess: ""
+                ...q
             })
         ),
         open: false,
-        id: 0
+        id: quiz.questions.length
     })
 );
 
