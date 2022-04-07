@@ -2,7 +2,9 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test "--coverage"
 
+PASS src/nested.test.ts
 PASS src/arrays.test.ts
+PASS src/objects.test.ts
 PASS src/components/StartAttempt.test.tsx
 PASS src/components/TwoDice.test.tsx
 PASS src/form-components/MultipleChoiceQuestion.test.tsx
@@ -18,57 +20,19 @@ PASS src/form-components/ChangeColor.test.tsx
 PASS src/components/Counter.test.tsx
 PASS src/components/RevealAnswer.test.tsx
 PASS src/quizzer/Quizzer.test.tsx
-  ● Console
-
-    console.error
-      Warning: Encountered two children with the same key, `0`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
-          at div
-          at QuizList (/home/runner/work/tasks/tasks/src/quizzer/QuizList.tsx:7:5)
-          at div
-          at Quizzer (/home/runner/work/tasks/tasks/src/quizzer/Quizzer.tsx:23:23)
-
-      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
-      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
-      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
-      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
-      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
-      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
-      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
-
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
 PASS src/App.test.tsx
-  ● Console
-
-    console.error
-      Warning: Encountered two children with the same key, `0`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
-          at div
-          at QuizList (/home/runner/work/tasks/tasks/src/quizzer/QuizList.tsx:7:5)
-          at div
-          at Quizzer (/home/runner/work/tasks/tasks/src/quizzer/Quizzer.tsx:23:23)
-          at div
-          at App
-
-      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
-      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
-      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
-      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
-      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
-      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
-      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
-
 -----------------------------|---------|----------|---------|---------|-------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------------------|---------|----------|---------|---------|-------------------
-All files                    |   56.06 |     61.4 |   55.62 |   57.38 |                   
- src                         |   40.65 |       66 |   36.36 |   40.38 |                   
+All files                    |   88.78 |    76.31 |   86.25 |   88.59 |                   
+ src                         |     100 |      100 |     100 |     100 |                   
   App.tsx                    |     100 |      100 |     100 |     100 |                   
   arrays.ts                  |     100 |      100 |     100 |     100 |                   
   functions.ts               |     100 |      100 |     100 |     100 |                   
-  nested.ts                  |       0 |        0 |       0 |       0 | 11-275            
-  objects.ts                 |       0 |        0 |       0 |       0 | 13-164            
+  nested.ts                  |     100 |      100 |     100 |     100 |                   
+  objects.ts                 |     100 |      100 |     100 |     100 |                   
  src/bad-components          |     100 |       50 |     100 |     100 |                   
   ChooseTeam.tsx             |     100 |       50 |     100 |     100 | 30                
   ColoredBox.tsx             |     100 |      100 |     100 |     100 |                   
@@ -103,8 +67,8 @@ All files                    |   56.06 |     61.4 |   55.62 |   57.38 |
   Quizzer.tsx                |   81.81 |      100 |      60 |     100 |                   
 -----------------------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 19 passed, 19 total
-Tests:       109 passed, 109 total
+Test Suites: 21 passed, 21 total
+Tests:       135 passed, 135 total
 Snapshots:   0 total
-Time:        13.131 s
+Time:        17.812 s
 Ran all test suites.
