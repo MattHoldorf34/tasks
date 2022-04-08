@@ -39,6 +39,7 @@ export function ChangeColor(): JSX.Element {
                     onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
                         setChosen(event.target.value)
                     }
+                    style={{ backgroundColor: color }}
                 />
             ))}
         </div>
